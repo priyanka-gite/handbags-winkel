@@ -5,10 +5,9 @@ function Button(props) {
         <button
             type="button"
             onClick={()=>console.log(props.buttonText)}
-            disabled={props.toBeDisabled} >
+            disabled={props.disabled} >
             {props.buttonText}
         </button>
-
 
     );
 }
